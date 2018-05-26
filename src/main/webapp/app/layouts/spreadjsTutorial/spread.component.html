@@ -1,0 +1,15 @@
+<div>
+    View spread js hiee:
+    <br>
+     {{title}}
+    
+    <br>
+
+     <gc-spread-sheets [backColor]="spreadBackColor" [hostStyle]="hostStyle">
+        <gc-worksheet [name]="sheetName" [dataSource]="data">
+          <gc-column dataField="name" headerText="Name" width=310></gc-column>
+          <gc-column dataField="chapter" headerText="Chapter" width=150></gc-column>
+          <gc-column dataField="page" headerText="Page" width=150></gc-column>
+        </gc-worksheet>
+      </gc-spread-sheets>  
+</div>
