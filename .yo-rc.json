@@ -36,6 +36,8 @@
     "nativeLanguage": "en",
     "languages": [
       "en"
-    ]
+    ],
+    "herokuDeployType": "git",
+    "herokuAppName": null
   }
 }
