@@ -20,8 +20,6 @@ import { PaginationConfig } from './blocks/config/uib-pagination.config';
 import { UserComponent } from './newUserModule/user.compnent';
 import { AddUserComponent } from './newUserModule/add-user.component';
 import { UserService } from './newUserModule/user.service';
-import { SpreadModule } from './layouts/spreadjsTutorial/spread.module';
-import { SpreadSheetsModule  } from '../lib/scripts/gc.spread.sheets.angular.11.0.0';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import {
     JhiMainComponent,
@@ -42,8 +40,7 @@ import {
         EcommerceHomeModule,
         EcommerceAdminModule,
         EcommerceAccountModule,
-        EcommerceEntityModule, SpreadSheetsModule,
-        SpreadModule,  
+        EcommerceEntityModule
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
